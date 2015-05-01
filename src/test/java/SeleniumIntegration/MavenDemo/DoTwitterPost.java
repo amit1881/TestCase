@@ -114,7 +114,7 @@ public class DoTwitterPost
 	   
 	    public Object[][] SendMessages() throws Exception{
 	 
-	         Object[][] testObjArray = ReadExcelDemo.getTableArray("/MavenDemo/src/test/resources/Messages.xlsx","Sheet1");
+	         Object[][] testObjArray = ReadExcelDemo.getTableArray("/src/test/resources/Messages.xlsx","Sheet1");
 	 
 	         return (testObjArray);
 	 
