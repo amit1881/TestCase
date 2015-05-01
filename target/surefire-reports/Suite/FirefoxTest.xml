@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="amit-PC" name="SeleniumIntegration.MavenDemo.DoTwitterPost" tests="14" failures="2" timestamp="30 Apr 2015 10:26:31 GMT" time="1077.203" errors="0">
+  <testcase name="LoginTest" time="71.085" classname="SeleniumIntegration.MavenDemo.DoTwitterPost"/>
+  <testcase name="LoginTest" time="221.647" classname="SeleniumIntegration.MavenDemo.DoTwitterPost"/>
+  <testcase name="LoginTest" time="59.602" classname="SeleniumIntegration.MavenDemo.DoTwitterPost"/>
+  <testcase name="LoginTest" time="70.153" classname="SeleniumIntegration.MavenDemo.DoTwitterPost"/>
+  <testcase name="LoginTest" time="59.487" classname="SeleniumIntegration.MavenDemo.DoTwitterPost"/>
+  <testcase name="LoginTest" time="62.052" classname="SeleniumIntegration.MavenDemo.DoTwitterPost"/>
+  <testcase name="LoginTest" time="52.539" classname="SeleniumIntegration.MavenDemo.DoTwitterPost"/>
+  <testcase name="LoginTest" time="63.792" classname="SeleniumIntegration.MavenDemo.DoTwitterPost"/>
+  <testcase name="LoginTest" time="54.047" classname="SeleniumIntegration.MavenDemo.DoTwitterPost"/>
+  <testcase name="LoginTest" time="78.304" classname="SeleniumIntegration.MavenDemo.DoTwitterPost"/>
+  <testcase name="LoginTest" time="59.194" classname="SeleniumIntegration.MavenDemo.DoTwitterPost"/>
+  <testcase name="LoginTest" time="54.746" classname="SeleniumIntegration.MavenDemo.DoTwitterPost"/>
+  <testcase name="LoginTest" time="82.439" classname="SeleniumIntegration.MavenDemo.DoTwitterPost">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;xpath&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;html/body/div[3]/div[1]/ul/li[2]/a&amp;quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.45.0&amp;apos;, revision: &amp;apos;5017cb8&amp;apos;, time: &amp;apos;2015-02-26 23:59:50&amp;apos;
+System info: host: &amp;apos;amit-PC&amp;apos;, ip: &amp;apos;127.0.0.1&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_45&amp;apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 50.59 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.45.0&amp;apos;, revision: &amp;apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&amp;apos;, time: &amp;apos;2015-02-27 09:10:26&amp;apos;
+System info: host: &amp;apos;amit-PC&amp;apos;, ip: &amp;apos;127.0.0.1&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_45&amp;apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=d7188505-5537-4e36-91c9-cc59f7796f2f, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d7188505-5537-4e36-91c9-cc59f7796f2f
+*** Element info: {Using=xpath, value=html/body/div[3]/div[1]/ul/li[2]/a}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[3]/div[1]/ul/li[2]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'amit-PC', ip: '127.0.0.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+Command duration or timeout: 50.59 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'amit-PC', ip: '127.0.0.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=d7188505-5537-4e36-91c9-cc59f7796f2f, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d7188505-5537-4e36-91c9-cc59f7796f2f
+*** Element info: {Using=xpath, value=html/body/div[3]/div[1]/ul/li[2]/a}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at SeleniumIntegration.MavenDemo.DoTwitterPost.LoginTest(DoTwitterPost.java:145)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'amit-PC', ip: '127.0.0.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
+	... 25 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[3]/div[1]/ul/li[2]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'amit-PC', ip: '127.0.0.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'amit-PC', ip: '127.0.0.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/amit/AppData/Local/Temp/anonymous1611184899075590255webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/amit/AppData/Local/Temp/anonymous1611184899075590255webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+... Removed 20 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="LoginTest" time="11.919" classname="SeleniumIntegration.MavenDemo.DoTwitterPost">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;xpath&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;.//*[@id=&amp;apos;email&amp;apos;]&amp;quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.45.0&amp;apos;, revision: &amp;apos;5017cb8&amp;apos;, time: &amp;apos;2015-02-26 23:59:50&amp;apos;
+System info: host: &amp;apos;amit-PC&amp;apos;, ip: &amp;apos;127.0.0.1&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_45&amp;apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 11.92 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.45.0&amp;apos;, revision: &amp;apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&amp;apos;, time: &amp;apos;2015-02-27 09:10:26&amp;apos;
+System info: host: &amp;apos;amit-PC&amp;apos;, ip: &amp;apos;127.0.0.1&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_45&amp;apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=d7188505-5537-4e36-91c9-cc59f7796f2f, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d7188505-5537-4e36-91c9-cc59f7796f2f
+*** Element info: {Using=xpath, value=.//*[@id=&amp;apos;email&amp;apos;]}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='email']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'amit-PC', ip: '127.0.0.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+Command duration or timeout: 11.92 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'amit-PC', ip: '127.0.0.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=d7188505-5537-4e36-91c9-cc59f7796f2f, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d7188505-5537-4e36-91c9-cc59f7796f2f
+*** Element info: {Using=xpath, value=.//*[@id='email']}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at SeleniumIntegration.MavenDemo.DoTwitterPost.LoginTest(DoTwitterPost.java:131)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'amit-PC', ip: '127.0.0.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
+	... 25 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@id='email']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'amit-PC', ip: '127.0.0.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'amit-PC', ip: '127.0.0.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/amit/AppData/Local/Temp/anonymous1611184899075590255webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/amit/AppData/Local/Temp/anonymous1611184899075590255webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+... Removed 20 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

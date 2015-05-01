@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">ChromeTest</td><td class="numi">13</td><td class="numi">13</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">605.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">FirefoxTest</td><td class="numi">12</td><td class="numi">12</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">1,077.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">25</td><td class="numi">25</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">1,077.2 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">ChromeTest &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">SeleniumIntegration.MavenDemo.DoTwitterPost<td><a href="#m1"><b>LoginTest</b>  </a></td><td class="numi">1</td><td class="numi">23894</td></tr>
+<tr><th colspan="4">ChromeTest &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="13">SeleniumIntegration.MavenDemo.DoTwitterPost<td><a href="#m2"><b>LoginTest</b>  </a></td><td class="numi">13</td><td class="numi">516828</td></tr><tr class="passedodd"><td><a href="#m3"><b>LoginTest</b>  </a></td><td class="numi">13</td><td class="numi">516828</td></tr><tr class="passedodd"><td><a href="#m4"><b>LoginTest</b>  </a></td><td class="numi">13</td><td class="numi">516828</td></tr><tr class="passedodd"><td><a href="#m5"><b>LoginTest</b>  </a></td><td class="numi">13</td><td class="numi">516828</td></tr><tr class="passedodd"><td><a href="#m6"><b>LoginTest</b>  </a></td><td class="numi">13</td><td class="numi">516828</td></tr><tr class="passedodd"><td><a href="#m7"><b>LoginTest</b>  </a></td><td class="numi">13</td><td class="numi">516828</td></tr><tr class="passedodd"><td><a href="#m8"><b>LoginTest</b>  </a></td><td class="numi">13</td><td class="numi">516828</td></tr><tr class="passedodd"><td><a href="#m9"><b>LoginTest</b>  </a></td><td class="numi">13</td><td class="numi">516828</td></tr><tr class="passedodd"><td><a href="#m10"><b>LoginTest</b>  </a></td><td class="numi">13</td><td class="numi">516828</td></tr><tr class="passedodd"><td><a href="#m11"><b>LoginTest</b>  </a></td><td class="numi">13</td><td class="numi">516828</td></tr><tr class="passedodd"><td><a href="#m12"><b>LoginTest</b>  </a></td><td class="numi">13</td><td class="numi">516828</td></tr><tr class="passedodd"><td><a href="#m13"><b>LoginTest</b>  </a></td><td class="numi">13</td><td class="numi">516828</td></tr><tr class="passedodd"><td><a href="#m14"><b>LoginTest</b>  </a></td><td class="numi">13</td><td class="numi">516828</td></tr>
+<tr><th colspan="4">FirefoxTest &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="2">SeleniumIntegration.MavenDemo.DoTwitterPost<td><a href="#m15"><b>LoginTest</b>  </a></td><td class="numi">2</td><td class="numi">94363</td></tr><tr class="failedodd"><td><a href="#m16"><b>LoginTest</b>  </a></td><td class="numi">2</td><td class="numi">94363</td></tr>
+<tr><th colspan="4">FirefoxTest &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="12">SeleniumIntegration.MavenDemo.DoTwitterPost<td><a href="#m17"><b>LoginTest</b>  </a></td><td class="numi">12</td><td class="numi">906652</td></tr><tr class="passedodd"><td><a href="#m18"><b>LoginTest</b>  </a></td><td class="numi">12</td><td class="numi">906652</td></tr><tr class="passedodd"><td><a href="#m19"><b>LoginTest</b>  </a></td><td class="numi">12</td><td class="numi">906652</td></tr><tr class="passedodd"><td><a href="#m20"><b>LoginTest</b>  </a></td><td class="numi">12</td><td class="numi">906652</td></tr><tr class="passedodd"><td><a href="#m21"><b>LoginTest</b>  </a></td><td class="numi">12</td><td class="numi">906652</td></tr><tr class="passedodd"><td><a href="#m22"><b>LoginTest</b>  </a></td><td class="numi">12</td><td class="numi">906652</td></tr><tr class="passedodd"><td><a href="#m23"><b>LoginTest</b>  </a></td><td class="numi">12</td><td class="numi">906652</td></tr><tr class="passedodd"><td><a href="#m24"><b>LoginTest</b>  </a></td><td class="numi">12</td><td class="numi">906652</td></tr><tr class="passedodd"><td><a href="#m25"><b>LoginTest</b>  </a></td><td class="numi">12</td><td class="numi">906652</td></tr><tr class="passedodd"><td><a href="#m26"><b>LoginTest</b>  </a></td><td class="numi">12</td><td class="numi">906652</td></tr><tr class="passedodd"><td><a href="#m27"><b>LoginTest</b>  </a></td><td class="numi">12</td><td class="numi">906652</td></tr><tr class="passedodd"><td><a href="#m28"><b>LoginTest</b>  </a></td><td class="numi">12</td><td class="numi">906652</td></tr>
+</table>
+<h1>ChromeTest</h1>
+<a id="m1"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">null</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>unknown error: keys should be a string
+  (Session info: chrome=42.0.2311.90)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 224 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;192.168.0.122&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\amit\AppData\Local\Temp\scoped_dir9172_3389}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=42.0.2311.90, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4cd52c8897075ec5885fecd8707c1fde
+Command duration or timeout: 3.09 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\amit\AppData\Local\Temp\scoped_dir9172_3389}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=42.0.2311.90, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=d98bc953-2a38-4ccf-9636-b144d9f12f5c, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d98bc953-2a38-4ccf-9636-b144d9f12f5c</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
+<br/>at SeleniumIntegration.MavenDemo.DoTwitterPost.LoginTest(DoTwitterPost.java:149)
+<br/>20 lines not shown
+<p>Caused by Screen shot has been taken
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
+<br/>at SeleniumIntegration.MavenDemo.DoTwitterPost.LoginTest(DoTwitterPost.java:149)
+<br/>20 lines not shown
+<p>Caused by unknown error: keys should be a string
+  (Session info: chrome=42.0.2311.90)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 224 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;192.168.0.122&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\amit\AppData\Local\Temp\scoped_dir9172_3389}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=42.0.2311.90, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4cd52c8897075ec5885fecd8707c1fde
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
+<br/>at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+<br/>at java.lang.reflect.Method.invoke(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+<br/>at com.sun.proxy.$Proxy2.sendKeys(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:354)
+<br/>at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+<br/>at java.lang.reflect.Method.invoke(Unknown Source)
+<br/>at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:63)
+<br/>at com.sun.proxy.$Proxy3.sendKeys(Unknown Source)
+<br/>at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:49)
+<br/>at org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:1)
+<br/>at java.util.concurrent.FutureTask.run(Unknown Source)
+<br/>at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
+<br/>at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+<br/>at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+<br/>at java.lang.Thread.run(Unknown Source)
+<br/>1 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">Tortoise was already over the line.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">There is plenty of time to relax</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">SLOW AND STEADY WINS THE RACE</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">He looked back at the tortoise and cried out</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">Tired of hearing him boast, the Tortoise challenged him to a race.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Hare stretched himself out alongside the road and fell asleep, thinking</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">How do you expect to win this race when you are walking along at your slow, slow pace?</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Hare ran down the road for a while and then and paused to rest.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">All the animals in the forest gathered to watch.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Tortoise walked and walked; never ever stopping until he came to the finish line.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The animals who were watching cheered so loudly for Tortoise</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Hare stretched and yawned and began to run again</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">There once was a speedy Hare who bragged about how fast he could run.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>FirefoxTest</h1>
+<a id="m15"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">SLOW AND STEADY WINS THE RACE</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[3]/div[1]/ul/li[2]/a&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 50.59 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=d7188505-5537-4e36-91c9-cc59f7796f2f, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d7188505-5537-4e36-91c9-cc59f7796f2f
+*** Element info: {Using=xpath, value=html/body/div[3]/div[1]/ul/li[2]/a}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at SeleniumIntegration.MavenDemo.DoTwitterPost.LoginTest(DoTwitterPost.java:145)
+<br/>20 lines not shown
+<p>Caused by Screen shot has been taken
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at SeleniumIntegration.MavenDemo.DoTwitterPost.LoginTest(DoTwitterPost.java:145)
+<br/>20 lines not shown
+<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;html/body/div[3]/div[1]/ul/li[2]/a&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/amit/AppData/Local/Temp/anonymous1611184899075590255webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+<br/>at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/amit/AppData/Local/Temp/anonymous1611184899075590255webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+<br/>1 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">null</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;email&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+Command duration or timeout: 11.92 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=d7188505-5537-4e36-91c9-cc59f7796f2f, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d7188505-5537-4e36-91c9-cc59f7796f2f
+*** Element info: {Using=xpath, value=.//*[@id=&apos;email&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at SeleniumIntegration.MavenDemo.DoTwitterPost.LoginTest(DoTwitterPost.java:131)
+<br/>20 lines not shown
+<p>Caused by Screen shot has been taken
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver</p>
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at SeleniumIntegration.MavenDemo.DoTwitterPost.LoginTest(DoTwitterPost.java:131)
+<br/>20 lines not shown
+<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;email&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;amit-PC&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/amit/AppData/Local/Temp/anonymous1611184899075590255webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+<br/>at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/amit/AppData/Local/Temp/anonymous1611184899075590255webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+<br/>1 lines not shown
+</td></tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m17"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Hare ran down the road for a while and then and paused to rest.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m18"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">How do you expect to win this race when you are walking along at your slow, slow pace?</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m19"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">All the animals in the forest gathered to watch.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m20"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">Tired of hearing him boast, the Tortoise challenged him to a race.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m21"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Hare stretched himself out alongside the road and fell asleep, thinking</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m22"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">Tortoise was already over the line.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m23"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Tortoise walked and walked; never ever stopping until he came to the finish line.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m24"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">There once was a speedy Hare who bragged about how fast he could run.</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m25"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">There is plenty of time to relax</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m26"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">He looked back at the tortoise and cried out</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m27"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The Hare stretched and yawned and began to run again</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m28"></a><h2>SeleniumIntegration.MavenDemo.DoTwitterPost:LoginTest</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">The animals who were watching cheered so loudly for Tortoise</td>
+</tr>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
