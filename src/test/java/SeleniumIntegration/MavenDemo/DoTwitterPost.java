@@ -44,7 +44,8 @@ public class DoTwitterPost
 	      if (browser.equalsIgnoreCase("firefox"))
 	      {
 	         System.out.println(" Executing on FireFox");
-	         String Node = "http://localhost:5560/wd/hub";
+	         //String Node = "http://localhost:5560/wd/hub";
+	         String Node = "http://172.16.1.181:5555/wd/hub";
 	         //String Node1="http://192.168.137.172:5556/wd/hub";
 	         DesiredCapabilities cap = DesiredCapabilities.firefox();
 	         
@@ -79,7 +80,8 @@ public class DoTwitterPost
 	         System.out.println(" Executing on CHROME");
 	         DesiredCapabilities cap = DesiredCapabilities.chrome();
 	         cap.setBrowserName("chrome");
-	         String Node = "http://localhost:5557/wd/hub";
+	         //String Node = "http://localhost:5557/wd/hub";
+	         String Node = "http://172.16.1.181:5557/wd/hub";
 	         //String Node1="http://192.168.137.172:5560/wd/hub";
 	         driver = new RemoteWebDriver(new URL(Node), cap);
 	         //driver1 = new RemoteWebDriver(new URL(Node1), cap);
