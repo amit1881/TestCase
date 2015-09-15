@@ -41,7 +41,8 @@ public class DoTwitterPost
 	   @BeforeTest
 	   public void launchapp(String browser) throws MalformedURLException
 	   {
-	      String URL = "http://social.ravabe.com/";
+	      System.out.println("Hello World");
+		  String URL = "http://social.ravabe.com/";
 	      
 	      if (browser.equalsIgnoreCase("firefox"))
 	      {
